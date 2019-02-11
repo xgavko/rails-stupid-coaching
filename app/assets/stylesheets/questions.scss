@@ -1,0 +1,40 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#question {
+  border-left: grey solid;
+  font-size: 14px;
+  line-height: 2;
+}
+
+#answer {
+  border-left: grey solid;
+  font-size: 14px;
+  line-height: 2;
+  background-color: lightyellow;
+}
+
+#input {
+  width: 40vw;
+}
+
+#submit {
+  height: 20px;
+  width: 100px;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
